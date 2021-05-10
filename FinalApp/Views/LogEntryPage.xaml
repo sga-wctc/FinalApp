@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.LogEntryPage"
+             Title="Log Entry update" >
+    <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+        <Label Text="Where" />
+        <Entry Text="{Binding LocName}" />
+        <Label Text="Description" />
+        <Entry Text="{Binding Description}" />
+        <Image x:Name="pictureImage" Source="{Binding ImageFile}" WidthRequest="100" HeightRequest="100"/>
+        <Button Text="New Pic" ImageSource="plus.png"   Clicked="OnClick_TakePicture" />
+        <Button Text="Save" Clicked="OnSaveClicked" />
+        <Button Text="Delete" Clicked="OnDeleteClicked" />
+        <Button Text="Cancel" Clicked="OnCancelClicked" />
+    </StackLayout>
+</ContentPage>

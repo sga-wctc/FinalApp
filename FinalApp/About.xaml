@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.About"
+             Title="About">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Use this application to maintain a log of your trip."
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+            <Label Text="There is still more to add to this application, but today it is functional."
+                VerticalOptions="Start" />
+            <Label>Final App  version 0.1</Label>
+            <Label>This app has:</Label>
+            <Label>+ flyout menu for navigation</Label>
+            <Label>+ list of trip log entries</Label>
+            <Label>+  maintenance scree for log entries</Label>
+            <Label>+  database with the log entries</Label>
+            <Label>+  camara access for taking/storing pictures</Label>
+            <Label>+  About page (this page)</Label>
+            <Label>+  Web Search page</Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
